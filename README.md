@@ -16,7 +16,7 @@ this middlware *only* works when DEBUG is True, reponse is pass thorugh when is 
     LIVEJS = False # enable/disable live updating
     LIVEJS_URL = 'http://livejs.com/live.js' # url to live.js file
 
-Your application templates can be updated if you enable ETAGS in your settings:
+Your application templates can be updated when you change them if you enable ETAGS in your settings:
 
     USE_ETAGS = True
 
