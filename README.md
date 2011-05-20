@@ -22,4 +22,11 @@ Your application templates can be updated when you change them if you enable ETA
 
 CommonMiddleware must be in MIDDLEWARE_CLASSES in order to use ETAGS (by default it's enabled)
 
+**playground**
+
+clone this repository and run example application
+
+    $ python manage.py runserver
+
+now point a browser to http://localhost:8000 and start editing media/test.css and templates/test.html 
 
